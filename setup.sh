@@ -13,7 +13,7 @@ sudo dnf install git -y
 sudo adduser lucas
 
 # Add user 'lucas' to sudo group
-sudo usermod -aG sudo lucas
+sudo usermod -aG wheel lucas
 
 # Clean up unnecessary packages and files
 sudo dnf autoremove -y
